@@ -4,7 +4,7 @@ Api/microsserviço para ficar responsável pela administração de usuários (mi
 
 
 # Ferramentas
-- Spring boot v2.7.5;
+- Spring boot v2.6.2;
 - Spring JPA;
 - Spring cloud;
 - Eureka server;
