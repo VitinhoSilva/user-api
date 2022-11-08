@@ -7,8 +7,5 @@ Api/microsserviço para ficar responsável pela administração de usuários (mi
 - Spring boot v2.6.2;
 - Spring JPA;
 - Spring cloud;
-- Eureka server;
-- Api gateway;
-- Open feign;
 - Java 11;
 - H2 database;
