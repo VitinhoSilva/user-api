@@ -1,4 +1,4 @@
-package br.jvpeojetos17.userapi;
+package br.jvprojetos17.userapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
