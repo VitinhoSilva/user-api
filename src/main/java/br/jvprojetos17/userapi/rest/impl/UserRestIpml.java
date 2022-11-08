@@ -1,7 +1,7 @@
-package br.jvprojetos17.userapi.resource.impl;
+package br.jvprojetos17.userapi.rest.impl;
 
 import br.jvprojetos17.userapi.domain.User;
-import br.jvprojetos17.userapi.resource.UserResource;
+import br.jvprojetos17.userapi.rest.UserRest;
 import br.jvprojetos17.userapi.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping(value = "/api/users")
-public class UserResourceIpml implements UserResource {
+public class UserRestIpml implements UserRest {
     
     @Autowired
     private UserService userService;

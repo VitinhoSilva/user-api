@@ -1,4 +1,4 @@
-package br.jvprojetos17.userapi.resource;
+package br.jvprojetos17.userapi.rest;
 
 import br.jvprojetos17.userapi.domain.User;
 import org.springframework.http.ResponseEntity;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-public interface UserResource {
+public interface UserRest {
 
     @GetMapping(value = "/{id}")
     ResponseEntity<User> findById(@PathVariable Long id);
