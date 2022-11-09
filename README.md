@@ -9,3 +9,4 @@ Api/microsserviço para ficar responsável pela administração de usuários (mi
 - Spring cloud;
 - Java 11;
 - H2 database;
+- Eureka client;
